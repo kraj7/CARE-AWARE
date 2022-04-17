@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE = edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/icon-font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <script src="https://use.fontawesome.com/65c0097225.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>TEAM HUSTLERS</title>
+
+  
+</head>
+
+<body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+    <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="login.html" class="navigation__link">Log In</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Ask your doubt </a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Reviews </a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Stories </a></li>
+        <li class="navigation__item"><a href="hospitals.html" class="navigation__link">Book Now An Appointment</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- <div class="navigation">
+    <input type="checkbox-2" class="navigation__checkbox-2" id="navi-toggle-2">
+    <label for="navi-toggle-2" class="navigation__button-2">
+      <span class="navigation__icon-2">&nbsp;</span>
+    </label>
+    <div class="navigation__background-2">&nbsp;</div>
+    <nav class="navigation__nav-2">
+      <ul class="navigation__list-2">
+        <li class="navigation__item-2"><a href="#" class="navigation__link-2">Ask your doubt </a></li>
+        <li class="navigation__item-2"><a href="#" class="navigation__link-2">Your Benefits </a></li>
+        <li class="navigation__item-2"><a href="#" class="navigation__link-2">Reviews </a></li>
+        <li class="navigation__item-2"><a href="#" class="navigation__link-2">Stories </a></li>
+        <li class="navigation__item-2"><a href="#" class="navigation__link-2">Book Now An Appointment</a></li>
+      </ul>
+    </nav>
+  </div> -->
+  <header class="header">
+    <!-- <div class="header__logo-box">
+      <img src="img\logo-white.png" alt="logo" class="header__logo">
+    </div> -->
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">TEAM HUSTLERS</span>
+        <span class="heading-primary--sub">is where u can make yourself better with the help of docters😊</span>
+      </h1>
+    
+      <div class="heading-primary u-margin-bottom-big">
+        <div class="heading-primary">
+                  <i class="fa fa-map-marker"></i>
+                  <p class="heading-tertiary">Discover the best hospital</p>
+                  <i class="fa fa-search">Enter your location:</i>
+                  <!-- <input type="text" placeholder="LOCATION" class="search-text"> -->
+                  <input type="text" class="form__input location" placeholder="LOCATION" id="LOCATION" required >
+                  <label for="LOCATION" class="form__label location">location</label>
+        </div>
+        <!-- <div class="heading-primary">
+                  <input type="text" class="form__input location" placeholder="query" id="QUERY" required style=" align-items: center">
+                  <label for="QUERY" class="form__label location">QUERY</label>
+        </div> -->
+        <!-- <div class="form__group">
+          <input type="text" class="form__input" placeholder="LOCATION" id="LOCATION" required>
+          <label for="LOCATION" class="form__label">Full name</label>
+        </div> -->
+    </div>
+      <a href="login.html" class="btn btn--white btn--animated">LOG IN</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section-about">
+      <div class="u-center-text u-margin-bottom-big">
+        <!-- if parent is inline block then its all the element use its properties of being center -->
+        <h2 class="heading-secondary">
+          About our Website
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary u-margin-bottom-small">A place where you will want to come and improve your overall health.</h3>
+          <p class="paragraph">We are launching the world's first online platform where you can learn about all of the services provided by hospitals, labs, and clinics for humans. 
+            What types of tests are available at a given hospital? 
+            Which hospital is the cheapest and best?
+            How well-educated the doctors are? and so on...
+            We are working to make this facility available to animals such as dogs, cats, and others.
+          </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small">We are doing everything we can to improve everyone's lives.</h3>
+          <p class="paragraph">Everyone can see how our hospitals, with which we are affiliated, appear.
+            A number of hospitals are linked to us in order to make life easier in this world.
+            We'll show you how to save money on your bills by taking advantage of government programmes designed specifically for you.
+            As you can see, certain doctors recommended our website to assist you reach them faster and conveniently.
+          </p>
+          <a href="#" class="btn-text">Learn more &rarr;</a>
+        </div>
+        <div class="col-1-of-2">
+          <!-- .composition>(img.composition-photo.composition-photo-1)*3 -->
+          <div class="composition">
+            <img src="istockphoto-1295301481-170667a.jpg" alt="photo 1" class="composition__photo composition__photo--p1">
+            <img src="istockphoto-1303278663-170667a.jpg" alt="photo 2" class="composition__photo composition__photo--p2">
+            <img src="istockphoto-1312706413-170667a.jpg" alt="photo 3" class="composition__photo composition__photo--p3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="section-features">
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box_icon icon-basic-world"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Explore the World</h3>
+            <p class="feature-box__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box_icon icon-basic-compass"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+            <p class="feature-box__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box_icon icon-basic-map"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+            <p class="feature-box__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box_icon icon-basic-heart"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+            <p class="feature-box__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="section-tours" id="section-tours" style="padding-top:0" !important>
+      <div class="u-center-text u-margin-bottom-big">
+        <!-- if parent is inline block then its all the element use its properties of being center -->
+        <h2 class="heading-secondary">
+          Hospitals nearby
+        </h2>
+      </div>
+      <div class="row">
+        <!-- 1st one -->
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side__front">
+              <div class="card__picture card__picture-1">
+                &nbsp;
+                <!-- it just mean empty space -->
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span-1">
+                  Hospital 1
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>24hr service</li>
+                  <li>Maximum 50 patient per day</li>
+                  <li>best doctors from AIIMS</li>
+                  <li>Ambulance number: ##########</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side__back card__side__back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">₹400 </p>
+                </div>
+                <a href="#popup" class="btn btn--white">Book now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <!-- 2nd one -->
+          <div class="card">
+            <div class="card__side card__side__front">
+              <div class="card__picture card__picture-2">
+                &nbsp;
+                <!-- it just mean empty space -->
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span-2">
+                  Hospital 2
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>24hr service</li>
+                  <li>Maximum 50 patient per day</li>
+                  <li>best doctors from AIIMS</li>
+                  <li>Ambulance number: ##########</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side__back card__side__back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">₹450 </p>
+                </div>
+                <a href="#popup" class="btn btn--white">Book now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <!-- 3rd one -->
+          <div class="card">
+            <div class="card__side card__side__front">
+              <div class="card__picture card__picture-3">
+                &nbsp;
+                <!-- it just mean empty space -->
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span-3">
+                  Hospital 3
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>24hr service</li>
+                  <li>Maximum 50 patient per day</li>
+                  <li>best doctors from AIIMS</li>
+                  <li>Ambulance number: ##########</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side__back card__side__back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">₹500 </p>
+                </div>
+                <a href="#popup" class="btn btn--white">Book now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="u-center-text u-margin-top-huge">
+        <a href="index.html" class="btn btn--green">Discover all facilities</a>
+      </div>
+    </section>
+
+    <!-- <section class="section-stories">
+       <div class="bg-vedio">
+        <vedio class="bg-vedio__content" autoplay loop muted>
+          <source src="1043136514-preview.mp4" type="video/mp4">
+              Your browser is not supported
+        </vedio>
+      </div> -->
+      <!-- <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          We make people genuinely happy
+        </h2>
+      </div>
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
+            <img src="img/patient1.jpg" alt="Person on a tour" class="story__img">
+            <figcaption class="story__caption">Keshav Maheshwari</figcaption>
+          </figure>
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">I had the best experience in the hospital in my entire life</h3> --> -->
+            <!-- <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque, cum unde deleniti at, quasi temporibus quis a quo iste voluptate blanditiis sint quisquam, expedita, dolore odit fugiat minima non.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
+            <img src="img/patient2.jpg" alt="Person on a tour" class="story__img">
+            <figcaption class="story__caption">Tanmay Jha</figcaption>
+          </figure>
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">I wouldn't thought that hospitals could be this much comfortable</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque, cum unde deleniti at, quasi temporibus quis a quo iste voluptate blanditiis sint quisquam, expedita, dolore odit fugiat minima non.</p>
+          </div>
+        </div>
+      </div>
+      <div class="u-center-text u-margin-top-huge">
+        <a href="#" class="btn-text">Read all Stories &rarr;</a>
+      </div>
+    </section> -->
+
+    <!-- <section class="section-book">
+      <div class="row">
+        <div class="book">
+          <div class="book__form">
+            <form action="#" class="form">
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">
+                  Have an appointment now
+                </h2>
+                 <p>😊</p> -->
+              <!-- </div>
+              <div class="form__group">
+                <input type="text" class="form__input" placeholder="Full Name" id="name"required>
+                <label for="name" class="form__label">Full name</label>
+              </div>
+              <div class="form__group">
+                <input type="email" class="form__input" placeholder="Your email" id="email"required>
+                <label for="email" class="form__label">Your email</label>
+              </div> --> -->
+              <!-- <div class="form__group">
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="small" name="size">
+                  <label for="small" class="form__radio-label">
+                    <span class="form__radio-button">
+                      Health Care Institutions
+                    </span>
+                  </label>
+                </div>
+              </div>
+              <div class="form__group">
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="large" name="size">
+                  <label for="large" class="form__radio-label">
+                    <span class="form__radio-button">
+                      Health Care Consumers
+                    </span>
+                  </label>
+                </div> -->
+              <!-- </div>
+              <div class="form__group" style="padding-left: 5rem" !important> -->
+                <!-- <button class="btn btn--green">Log In &rarr;</button> -->
+                <!-- <a href="profile.html" class="btn btn--green">Log In &rarr;</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+
+  <footer class="footer">
+    <div class="footer__logo-box">
+      <img src="img/favicon.png" alt="full logo" class="footer__logo">
+    </div>
+    <div class="row">
+      <div class="col-1-of-2">
+        <div class="footer__navigation">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+            <!-- <li class="footer__item"><a href="#" class="footer__link">Careers</a></li> -->
+            <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2-of-2 u-margin-top-small">
+        <p class="footer__copyright">
+          Built my <a href="index.html" class="footer__link">HUSTLERS</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="img/popuphospital.jpg" alt="Tour photo" class="popup__img">
+        <img src="img/popuphospital2.jpg" alt="Tour photo" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <a href="#section-tours" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">Acknowledge more about hospital</h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">Ratings</h3>
+        <p class="popup__text"> 5 star </p>
+        <h3 class="heading-tertiary u-margin-bottom-small">Dr. Abhilash Kumar</h3>
+        <p class="popup__text"> qualified from this AIIMS. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <h3 class="heading-tertiary u-margin-bottom-small">Facilities available</h3>
+        <p class="popup__text"> MRI SCAN </p>
+        <p class="popup__text"> BLOOD SCAN </p>
+        <p class="popup__text"> MRI SCAN </p>
+        <p class="popup__text"> Student doctor </p>
+        <p class="popup__text"> different important equipments available </p>
+        <!-- <h3 class="heading-tertiary u-margin-bottom-small"></h3>
+        <p class="popup__text">  </p> -->
+        <a href="bookanappointment.html" class="btn btn--green">Book an appointment</a>
+      </div>
+    </div>
+  </div>
+  <!-- <section class="grid-test">
+        <div class="row">
+          <div class="col-1-of-2">
+            col-1-of-2
+          </div>
+          <div class="col-1-of-2">
+            col-1-of-2
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            col-1-of-3
+          </div>
+          <div class="col-1-of-3">
+            col-1-of-3
+          </div>
+          <div class="col-1-of-3">
+            col-1-of-3
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            col-1-of-3
+          </div>
+          <div class="col-2-of-3">
+            col-2-of-3
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-4">
+            col-1-of-4
+          </div>
+          <div class="col-1-of-4">
+            col-1-of-4
+          </div>
+          <div class="col-1-of-4">
+            col-1-of-4
+          </div>
+          <div class="col-1-of-4">
+            col-1-of-4
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-1-of-4">
+            col-1-of-4
+          </div>
+          <div class="col-1-of-4">
+            col-1-of-4
+          </div>
+          <div class="col-2-of-4">
+            col-2-of-4
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-4">
+            col-1-of-4
+          </div>''
+          <div class="col-3-of-4">
+            col-3-of-4
+          </div>
+        </div>
+      </section> -->
+</body>
+
+</html>
